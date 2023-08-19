@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/me/static/css/main.78beea93.css",
+    "main.js": "/me/static/js/main.f44c64b8.js",
+    "static/media/keepers.png": "/me/static/media/keepers.549906c047df73eeccf2.png",
+    "static/media/img.jpg": "/me/static/media/img.745f4bec3486aff68023.jpg",
+    "static/media/weather.png": "/me/static/media/weather.ebb1ee4672de7e7fa0c0.png",
+    "static/media/Amit_Sharma.pdf": "/me/static/media/Amit_Sharma.691ecb2a78a8a02aec52.pdf",
+    "static/media/pic1.png": "/me/static/media/pic1.af4b1ed0cac48f798296.png",
+    "static/media/pic2.jpg": "/me/static/media/pic2.527eaa6683d54413138c.jpg",
+    "static/media/tictactoe.jpg": "/me/static/media/tictactoe.d45f53d115549af13072.jpg",
+    "static/media/wordtyper.jpg": "/me/static/media/wordtyper.07c56f24a1fb75e06c09.jpg",
+    "static/media/background.jpg": "/me/static/media/background.bec10b971a300143af38.jpg",
+    "static/media/quiz.jpg": "/me/static/media/quiz.556941e7a5ce65087a12.jpg",
+    "index.html": "/me/index.html",
+    "main.78beea93.css.map": "/me/static/css/main.78beea93.css.map",
+    "main.f44c64b8.js.map": "/me/static/js/main.f44c64b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78beea93.css",
+    "static/js/main.f44c64b8.js"
+  ]
+}
