@@ -1,0 +1,105 @@
+#resume{
+    height: auto;
+}
+.container .resume_container{
+    text-align: center;
+}
+.resume_content p{
+    margin: 1.6rem 0 1.5rem;
+    color: var(--color-white);
+    text-align: left;
+    height: 100%;
+}
+
+
+.resume_all_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.6rem;
+}
+
+.resume_all_cards .heading{
+    text-align: left;
+    color: var(--color-primary);
+}
+
+.resume_all_cards .title{
+    text-align: left;
+    color: var(--color-light);
+}
+
+.resume_all_cards h5{
+    text-align: left;
+    color: var(--color-light);
+    background: rgba(255, 255, 255, 0.3);
+    width:fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    padding: 0px 8px;
+}
+
+.resume_all_cards li{
+    list-style: disc;
+    text-align: left;
+    color: var(--color-white);
+}
+.sumary_card li{
+    color: var(--color-light);
+}
+
+.resume_all_cards .resume_address{
+    text-align: left;
+    font-style: italic;
+}
+
+.resume_first_card{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.resume_cards{
+    background: var(--color-bg-varient);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+    margin-bottom: 1.6rem;
+}
+
+.resume_cards:hover{
+    background: transparent;
+    border-color: var(--color-primary-varient);
+    cursor: default;
+}
+
+.resume_card{
+    display: grid;
+    grid-column: 1fr 1fr;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2em;
+    text-align: center;
+    transition: var(--transition);
+    overflow: hidden;
+}
+
+
+
+/* media quary (medium devices) */
+@media screen and (max-width: 1024px) {
+    .resume_all_cards{
+        display: flex;
+        flex-direction: column;
+    }
+    }
+  
+  /* media quary (small devices) */
+  
+  @media screen and (max-width: 600px) {
+    .resume_all_cards{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  
